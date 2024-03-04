@@ -22,6 +22,15 @@ modules:
     install:
       # - micro
       # - starship
+      - neovim
+      - fish
+      - fastfetch # fast version of neofetch
+      - distrobox # better alternative to toolbox
+      - rsms-inter-fonts # my personal favourite UI font
+      - pcaro-hermit-fonts # best monospace font
+      - epson-inkjet-printer-escpr2 # printer driver
+      - mesa-libGLU # needed for running games
+      - alacritty # my favourite terminal emulator
     remove:
       - firefox # default firefox removed in favor of flatpak
       - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
@@ -35,6 +44,20 @@ modules:
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
         - org.mozilla.firefox
+        - org.ablaze.Floorp
+        - com.vivaldi.Vivaldi
+        - com.nextcloud.desktopclient.nextcloud
+        - com.spotify.Client
+        - org.libreoffice.LibreOffice
+        - com.valvesoftware.Steam
+        - net.lutris.Lutris
+        - org.gnome.Boxes
+        - org.gnome.Photos
+        - org.mozilla.Thunderbird
+        - org.videolan.VLC
+        - org.gnome.Music
+        - org.gnome.Photos
+        - org.gnome.Calculator
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
         # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
